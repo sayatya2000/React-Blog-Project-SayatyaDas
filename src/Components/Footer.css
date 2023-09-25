@@ -1,5 +1,7 @@
 .theSiren{
-    font-size:300%;
+    /* font-size:00%;
+     */
+     font-size: large;
     font-weight: bold;
     color: black;
     margin-top: 30px;
@@ -14,6 +16,8 @@
 }
 #footer-box{
     background-color:  rgb(192, 187, 187);
+    /* width: 100%;     */
+
 }
 .footer-box{
     display: flex;
@@ -33,25 +37,47 @@ h2{
     width: 50px;
     margin: 20px;
 }
+/* .social-media-box{
+    width: 100%;
+} */
 .contact{
-    /* margin-top: 30px; */
-    /* margin-left: 20px; */
+    margin-top: 30px;
+    margin-left: 20px;
     color: black;
     font-size: 200%;
+    font-size: large;
 }
-@media screen and (max-width:440px){
+@media screen and (max-width:375px){
     .footer-box{
         display: flex;
         flex-direction: column;
-        align-content: center;
+        /* align-content: center; */
         justify-content: center;
-        width: 1560px;
+        width: 1150px;
         /* width: 100vw; */
         /* min-width: 100%; */
     }
     #footer-box{
         background-color: rgb(192, 187, 187);
-        width: 1560px;
+        width: 1150px;
+        /* width: 370vw; */
+         /* white-space: 1000vh; */
+        
+    }
+}
+@media screen and (max-width:440px){
+    .footer-box{
+        display: flex;
+        flex-direction: column;
+        /* align-content: center; */
+        justify-content: center;
+        width: 1500px;
+        /* width: 100vw; */
+        /* min-width: 100%; */
+    }
+    #footer-box{
+        background-color: rgb(192, 187, 187);
+        width: 1500px;
         /* width: 370vw; */
          /* white-space: 1000vh; */
         
